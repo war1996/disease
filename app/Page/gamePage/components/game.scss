@@ -1,0 +1,33 @@
+.wrapG{
+    height: 700px;
+    width: 800px;
+    background: #fff;
+    border: 1px solid #f5f5f5;
+    margin: auto;
+    // transform: translateY(20%);
+    border-radius: 5px;
+    .game1{
+       height: 50%;
+       background: pink;
+    }
+    .game2{
+        height: 50%;
+        background: yellow;
+        padding-top: 20px;
+        .imgs{
+            height: 70%;
+            width: 80%;
+            border: 1px solid;
+            margin: auto;
+        }
+    }
+
+}
+.avatar-uploader{
+    .ant-upload{
+        width: 128px;
+        height: 128px;
+        border: 1px solid;
+    }
+}
+
