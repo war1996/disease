@@ -8,7 +8,6 @@ import {firstTest} from './FirstTestReducer.js'
 class FirstTestPage extends React.Component {
 	render(){
 		return <div>
-            Page
             <FirstTest/>
             </div>
 	}

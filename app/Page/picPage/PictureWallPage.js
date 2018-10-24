@@ -1,7 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
-import PictureWall from './components/PictureWall' 
+import PictureWall from './components/PictureWall'
 import * as PictureWallActions from './PictureWallAction'
 import {PictureWallList} from './PictureWallReducer'
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import { nav } from 'react-bootstrap' 
-import {Link} from 'react-router'
+import { nav } from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 import { findDOMNode } from 'react-dom';
 import './assets/bootstrap/css/bootstrap.min.css'
 import './assets/font-awesome/css/font-awesome.min.css'
@@ -41,9 +41,9 @@ export default class Login extends React.Component {
 					<ul className="nav navbar-nav navbar-right">
 						<li>
 							<span className="li-social">
-								<a href="#"><i className="fa fa-facebook"></i></a> 
-								<a href="#"><i className="fa fa-twitter"></i></a> 
-								<a href="#"><i className="fa fa-envelope"></i></a> 
+								<a href="#"><i className="fa fa-facebook"></i></a>
+								<a href="#"><i className="fa fa-twitter"></i></a>
+								<a href="#"><i className="fa fa-envelope"></i></a>
 								<a href="#"><i className="fa fa-skype"></i></a>
 							</span>
 						</li>

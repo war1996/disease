@@ -1,7 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
-import Login from './components/Login' 
+import Login from './components/Login'
 import * as LoginPageActions from './LoginPageAction'
 import {loginPage} from './LoginPageReducer.js'
 
@@ -14,6 +14,7 @@ class LoginPage extends React.Component {
 	render(){
 		return <div>
             <Login {...this.props}/>
+            {/* 哈哈我是登陆页面 */}
             </div>
 	}
 }
